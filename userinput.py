@@ -32,3 +32,5 @@ print('''how
       you''')   # this will print "how", "are", and "you" on separate lines due to the triple quotes
 
 print("hello world" ,6, sep="~") # this will print "hello world" on the same line due to the newline character
+print("hello world" ,6, sep="~", end="!!!") # this will print "hello world" and "6" on the same line with "!!!" at the end instead of a newline
+print("hello world" ,6, sep="~", end="!!!\n") # this will print "hello world" and "6" on the same line with "!!!" at the end and a newline character at the end 
