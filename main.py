@@ -1,2 +1,6 @@
 print("Hello, World")
 print ("connected successfully to github  repository")
+print("This is the first commit to github repository")
+print("This is the second commit to github repository") 
+print("This is the third commit to github repository")
+print("This is the fourth commit to github repository") 
