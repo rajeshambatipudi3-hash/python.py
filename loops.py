@@ -9,8 +9,19 @@
 #     print(i) # this will print the current value of i in each iteration of the loop, which will be 0, 2, 4, 6, and 8    
 
 
-for i in range(1, 11): # this will loop from 1 to 10
-    print(f"5 X {i} = {5 * i}") # this will print the multiplication table of 5, which will be 5 X 1 = 5, 5 X 2 = 10, and so on up to 5 X 10 = 50
+# for i in range(1, 11): # this will loop from 1 to 10
+#     print(f"5 X {i} = {5 * i}") # this will print the multiplication table of 5, which will be 5 X 1 = 5, 5 X 2 = 10, and so on up to 5 X 10 = 50
 
-    for i in range(1, 11): # this will loop from 1 to 10
-        print("5 X", i, "=", 5 * i) # this will print the multiplication table of 5, which will be 5 X 1 = 5, 5 X 2 = 10, and so on up to 5 X 10 = 50
+#     for i in range(1, 11): # this will loop from 1 to 10
+#         print("5 X", i, "=", 5 * i) # this will print the multiplication table of 5, which will be 5 X 1 = 5, 5 X 2 = 10, and so on up to 5 X 10 = 50
+
+
+        # while loop example
+i = 1 # this will initialize the variable i to 1
+while i <= 10: # this will loop while i is less than or equal to 10
+    print(f"5 X {i} = {5 * i}") # this will print the multiplication table of 5, which will be 5 X 1 = 5, 5 X 2 = 10, and so on up to 5 X 10 = 50
+    i += 1 # this will increment the value of i by 1 in each iteration of the loop
+i = 1 # this will initialize the variable i to 1
+while i < 6: # this will loop while i is less than 6
+    print(i) # this will print the current value of i in each iteration of the loop, which will be 1, 2, 3, 4, and 5
+    i = i + 1 # this will increment the value of i by 1 in each iteration of the loop
