@@ -1,3 +1,4 @@
+# cSpell:ignore aeiou bcdfghjklmnpqrstvwxyz
 square = lambda x: x ** 2 # this is a lambda function that takes one parameter 'x' and returns the square of 'x'
 print(square(5)) # this will call the 'square' lambda function with the argument 5 and print the returned value, which is 25
 cube = lambda x: x ** 3 # this is a lambda function that takes one parameter 'x' and returns the cube of 'x'
@@ -25,7 +26,7 @@ is_negative = lambda x: x < 0 # this is a lambda function that takes one paramet
 print(is_negative(5)) # this will call the 'is_negative' lambda function with the argument 5 and print the returned value, which is False
 print(is_negative(-3)) # this will call the 'is_negative' lambda function with the argument -3 and print the returned value, which is True
 is_palindrome = lambda s: s == s[::-1] # this is a lambda function that takes one parameter 's' and returns True if 's' is a palindrome (reads the same forwards and backwards), otherwise it returns False
-print(is_palindrome("racecar")) # this will call the 'is_palindrome' lambda function with the argument "racecar" and print the returned value, which is True
+print(is_palindrome("radar")) # this will call the 'is_palindrome' lambda function with the argument "radar" and print the returned value, which is True
 print(is_palindrome("hello")) # this will call the 'is_palindrome' lambda function with the argument "hello" and print the returned value, which is False
 is_vowel = lambda c: c.lower() in 'aeiou' # this is a lambda function that takes one parameter 'c' and returns True if 'c' is a vowel (a, e, i, o, u), otherwise it returns False
 print(is_vowel('a')) # this will call the 'is_vowel' lambda function with the argument 'a' and print the returned value, which is True

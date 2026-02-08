@@ -1,3 +1,4 @@
+# cSpell:ignore ecil
 name = "Alice"  
 print(name[0:2]) # this will print the first character of the string, which is 'A'
 print(name[2:5]) # this will print the second character of the string, which is 'lic'

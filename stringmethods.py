@@ -1,3 +1,4 @@
+# cSpell:ignore gramming progr mming programm nges appl grap ples ananas applesorangesbananasgrapes
 name = "Alice"
 greeting = "Hello, " + name + "!"
 print(greeting) # this will print "Hello, Alice!"   
@@ -33,7 +34,7 @@ print(name.isalnum()) # this will print True if all characters in the string are
 print(name.isupper()) # this will print True if all characters in the string are uppercase, which is False
 print(name.islower()) # this will print True if all characters in the string are lowercase, which is True   
 print(name.strip()) # this will print the string with any leading or trailing whitespace removed, which is 'hello world' (since there is no whitespace  to remove)
-print(name.lstrip()) # this will print the string with any leading whitespace removed, which is 'hello world' (since there is no leading whitespace to remove )
+print(name.lstrip()) # this will print the string with any leading whitespace removed, which is 'hello world' (since there is no leading whitespace to remove)
 print(name.rstrip()) # this will print the string with any trailing whitespace removed, which is 'hello world' (since there is no trailing whitespace to remove)
 
 text = "python programming is fun" # this will create a string variable named text with the value "python programming is fun"

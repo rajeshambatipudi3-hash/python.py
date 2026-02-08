@@ -1,3 +1,4 @@
+# cSpell:ignore ecil Elice
 name = "Alice"
 print(name[0]) # this will print the first character of the string, which is 'A'
 print(name[1]) # this will print the second character of the string, which is '

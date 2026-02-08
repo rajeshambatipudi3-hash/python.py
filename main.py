@@ -1,3 +1,4 @@
+# cSpell:ignore cgpa
 print("Hello, World")
 print ("connected successfully to github  repository")
 print("This is the first commit to github repository")
