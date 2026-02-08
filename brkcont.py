@@ -16,3 +16,6 @@ for i in range(0, 20): # this will loop from 0 to 19
     
 print("Loop ended") # this will print "Loop ended" after the loop has finished executing
 
+print(i) # this will print the final value of i after the loop has finished executing, which will be 19 since the loop ends when i reaches 20 and the last value of i that is printed is 19
+if i == 19: # this will check if the final value of i is equal to 19
+    pass # this will do nothing since i is equal to 19 , so it will simply pass and continue with the rest of the code
