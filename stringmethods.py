@@ -53,4 +53,39 @@ print(text.replace("fun", "awesome")) # this will print the string with all occu
 print(text.replace("programming", "coding")) # this will print the string with all occurrences of "programming" replaced with "coding", which is 'python coding is fun'
 print(text.replace("o", "0")) # this will print the string with all occurrences of "o" replaced with "0", which is 'pyth0n pr0gramming is fun'
 print(text.replace("a", "4")) # this will print the string with all occurrences of "a" replaced with "4", which is 'python progr4mming is fun'
-print(text.replace("e", "3")) # this will print the string with all occurrences of
+print(text.replace("e", "3")) # this will print the string with all occurrences of      "e" replaced with "3", which is 'python programming is fun' (since there are no occurrences of "e" in the string text)
+print(text.replace("i", "1")) # this will print the string with all occurrences of "i" replaced with "1", which is 'python programm1ng 1s fun'
+print(text.replace("s", "5")) # this will print the string with all occurrences of "s" replaced with "5", which is 'python programming i5 fun'      
+
+
+text = "apples, oranges, bananas, grapes" # this will create a string variable named text with the value "apples, oranges, bananas, grapes"
+print(text.split(", ")) # this will print a list of the substrings in the string text that are separated by the substring ", ", which is ['apples', 'oranges', 'bananas', 'grapes']
+print(text.split("a")) # this will print a list of the substrings in the string text that are separated by the character "a", which is ['apples, or', 'nges, b', 'n', 'n', 's, gr', 'pes']
+print(text.split(" ")) # this will print a list of the substrings in the string text that are separated by the space character, which is ['apples,', 'oranges,', 'bananas,', 'grapes']
+print(text.split(",")) # this will print a list of the substrings in the string text that are separated by the comma character, which is ['apples', ' oranges', ' bananas', ' grapes']
+print(text.split("e")) # this will print a list of the substrings in the string text that are separated by the character "e", which is ['appl', 's, orang', 's, bananas, grap', 's']
+print(text.split("p")) # this will print a list of the substrings in the string text that are separated by the character "p", which is ['a', 'ples, oranges, bananas, gra', 'es']
+print(text.split("s")) # this will print a list of the substrings in the string text that are separated by the character "s", which is ['apple', ', orange', ', banana', ', grape', '']
+print(text.split("n")) # this will print a list of the substrings in the string text that are separated by the character "n", which is ['apples, oranges, ba', 'a', 'as, grapes']
+print(text.split("g")) # this will print a list of the substrings in the string text that are separated by the character "g", which is ['apples, oran', 'es, bananas, ', 'rapes']
+print(text.split("o")) # this will print a list of the substrings in the string text that are separated by the character "o", which is ['apples, ', 'ranges, bananas, grapes']
+print(text.split("a, ")) # this will print a list of the substrings in the string text that are separated by the substring "a, ", which is ['apples', 'oranges', 'bananas, grapes']
+print(text.split(", a")) # this will print a list of the substrings in the string text that are separated by the substring ", a", which is ['apples', 'oranges', 'bananas, grapes']
+print(text.split(", o")) # this will print a list of the substrings in the string text that are separated by the substring ", o", which is ['apples', 'ranges, bananas, grapes']
+print(text.split(", b")) # this will print a list of the substrings in the string text that are separated by the substring ", b", which is ['apples, oranges', 'ananas, grapes']
+print(text.split(", g")) # this will print a list of the substrings in the string text that are separated by the substring ", g", which is ['apples, oranges, bananas', 'rapes']
+print(text.split(", gr")) # this will print a list of the substrings in the string text that are separated by the substring ", gr", which is ['apples, oranges, bananas', 'apes']
+print(text.split(", gr")) # this will print a list of the substrings in the string text that are separated by the substring ", gr", which is ['apples, oranges, bananas', 'apes']   
+
+
+text = "apples, oranges, bananas, grapes" # this will create a string variable named text with the value "apples, oranges, bananas, grapes  "
+print(text.strip()) # this will print the string with any leading or trailing whitespace removed, which is 'apples, oranges, bananas, grapes' (since there is no leading or trailing whitespace to remove)
+print(",".join(['apples', 'oranges', 'bananas', 'grapes'])) # this will print the string that is created by joining the elements of the list ['apples', 'oranges', 'bananas', 'grapes'] with the separator ",", which is 'apples,oranges,bananas,grapes'
+print(" ".join(['apples', 'oranges', 'bananas', 'grapes'])) # this will print the string that is created by joining the elements of the list ['apples', 'oranges', 'bananas', 'grapes'] with the separator " ", which is 'apples oranges bananas grapes'
+print("-".join(['apples', 'oranges', 'bananas', 'grapes '])) # this will print the string that is created by joining the elements of the list ['apples', 'oranges', 'bananas', 'grapes '] with the separator "-", which is 'apples-oranges-bananas-grapes '
+print("".join(['apples', 'oranges', 'bananas', 'grapes'])) # this will print the string that is created by joining the elements of the list ['apples', 'oranges', 'bananas', 'grapes'] with no separator, which is 'applesorangesbananasgrapes'
+print(" and ".join(['apples', 'oranges', 'bananas', 'grapes'])) # this will print the string that is created by joining the elements of the list ['apples', 'oranges', 'bananas', 'grapes'] with the separator " and ", which is 'apples and oranges and bananas and grapes'
+print(", ".join(['apples', 'oranges', 'bananas', 'grapes'])) # this will print the string that is created by joining the elements of the list ['apples', 'oranges', 'bananas', 'grapes'] with the separator ", ", which is 'apples, oranges, bananas, grapes'
+print("; ".join(['apples', 'oranges', 'bananas', 'grapes'])) # this will print the string that is created by joining the elements of the list ['apples', 'oranges', 'bananas', 'grapes'] with the separator "; ", which is 'apples; oranges; bananas; grapes'
+print(" | ".join(['apples', 'oranges', 'bananas', 'grapes'])) # this will print the string that is created by joining the elements of the list ['apples', 'oranges', 'bananas', 'grapes'] with the separator " | ", which is 'apples | oranges | bananas | grapes'  
+print("".join(['apples', 'oranges', 'bananas', 'grapes'])) # this will print the string that is created by joining the elements of the list ['apples', 'oranges', 'bananas', 'grapes'] with no separator, which is 'applesorangesbananasgrapes' 
