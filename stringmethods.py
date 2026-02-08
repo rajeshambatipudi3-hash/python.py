@@ -28,3 +28,10 @@ print(name.rindex("o")) # this will print the index of the last occurrence of th
 print(name.startswith("h")) # this will print True if the string starts with "h", which is True
 print(name.endswith("d")) # this will print True if the string ends with "d", which is True
 print(name.isalpha()) # this will print True if all characters in the string are alphabetic
+print(name.isdigit()) # this will print True if all characters in the string are digits, which is False
+print(name.isalnum()) # this will print True if all characters in the string are alphanumeric (letters and numbers), which is False (since there is a space character)
+print(name.isupper()) # this will print True if all characters in the string are uppercase, which is False
+print(name.islower()) # this will print True if all characters in the string are lowercase, which is True   
+print(name.strip()) # this will print the string with any leading or trailing whitespace removed, which is 'hello world' (since there is no whitespace  to remove)
+print(name.lstrip()) # this will print the string with any leading whitespace removed, which is 'hello world' (since there is no leading whitespace to remove )
+print(name.rstrip()) # this will print the string with any trailing whitespace removed, which is 'hello world' (since there is no trailing whitespace to remove)
