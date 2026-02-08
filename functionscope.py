@@ -51,20 +51,20 @@ def add(a, b): # this is a function definition for 'add' which takes two paramet
     return a + b # this is the body of the function that returns the sum of 'a' and 'b'
 print(add(2, 3)) # this will call the 'add' function with the arguments 2 and 3 and print the returned value, which is 5
 
-def multiply(x, y): # this is a function definition for 'multiply' which takes two parameters 'x' and 'y'   
-    
+def multiply(x, y): # this is a function definition for 'multiply' which takes two parameters 'x' and 'y'
     """
+    Multiplies two numbers.
+    
+    Args:
+        x: First number
         y: Second number
     
-    Returns: # this is a docstring that describes the parameters and return value of the 'multiply' function    
-
+    Returns:
         The product of x and y
     """
     return x * y # this is the body of the function that returns the product of 'x' and 'y'
-print(multiply(4, 5)) # this will call the 'multiply' function with the arguments 4 and 5 and print the returned value, which is 20 
+print(multiply(4, 5)) # this will call the 'multiply' function with the arguments 4 and 5 and print the returned value, which is 20
 
-
-print(add.__doc__) # this will print the docstring of the 'add' function, which is "Returns the sum of two numbers."    
-
-print(multiply.__doc__) # this will print the docstring of the 'multiply' function, which is:
+print(add.__doc__) # this will print the docstring of the 'add' function, which is "Returns the sum of two numbers."
+print(multiply.__doc__) # this will print the docstring of the 'multiply' function
 
