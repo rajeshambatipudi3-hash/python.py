@@ -27,3 +27,9 @@ average = (a + b + c) / 3 # this will calculate the average of a, b, and c by ad
 print(average) # this will print the calculated average, which is 13.333333333333334
 def average(a, b, c): # this is a function definition that takes three parameters called 'a', 'b', and 'c'
     return (a + b + c) / 3 # this is the body of the function that returns the average of 'a', 'b', and 'c' 
+
+def add(a, b): # this is a function definition that takes two parameters called 'a' and 'b'
+    return a + b # this is the body of the function that returns the sum of 'a' and 'b'     
+c = add(5, 10) # this will call the 'add' function with the arguments 5 and 10 and assign the returned sum, which is 15, to the variable 'c'
+print(c) # this will print the value of 'c', which is 15
+
