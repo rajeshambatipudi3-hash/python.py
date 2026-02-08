@@ -33,3 +33,9 @@ def add(a, b): # this is a function definition that takes two parameters called 
 c = add(5, 10) # this will call the 'add' function with the arguments 5 and 10 and assign the returned sum, which is 15, to the variable 'c'
 print(c) # this will print the value of 'c', which is 15
 
+def subtract(a, b): # this is a function definition that takes two parameters called 'a' and 'b'
+    return a - b # this is the body of the function that returns the difference of 'a' and 'b'  
+print(subtract(10, 5)) # this will call the 'subtract' function with the arguments 10 and 5 and print the returned difference, which is 5
+print(subtract(20, 10)) # this will call the 'subtract' function with the arguments 20 and 10 and print the returned difference, which is 10
+print(subtract(5, 10)) # this will call the 'subtract' function with the arguments 5 and 10 and print the returned difference, which is -5
+print(subtract(3.5, 2.5)) # this will call the 'subtract' function with the arguments 3.5 and 2.5 and print the returned difference, which is 1.0   
