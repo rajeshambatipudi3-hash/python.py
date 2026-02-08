@@ -30,3 +30,5 @@ print("how are \N{GREEK CAPITAL LETTER ALPHA} u") # this will print "how are Α 
 print('''how
       are 
       you''')   # this will print "how", "are", and "you" on separate lines due to the triple quotes
+
+print("hello world" ,6, sep="~") # this will print "hello world" on the same line due to the newline character
