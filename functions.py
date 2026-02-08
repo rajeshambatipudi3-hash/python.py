@@ -1,0 +1,41 @@
+# functions example
+def greet(name): # this is a function definition that takes one parameter called 'name'
+    return f"Hello, {name}!"    # this is the body of the function that returns a greeting message using an f-string to include the value of the 'name' parameter
+
+print(greet("World"))  # this will call the 'greet' function with the argument "World" and print the returned greeting message, which is "Hello, World!"
+print(greet("Alice"))  # this will call the 'greet' function with the argument "Alice" and print the returned greeting message, which is "Hello, Alice!"
+print(greet("Bob"))    # this will call the 'greet' function with the argument "Bob" and print the returned greeting message, which is "Hello, Bob!"    
+print(greet("Charlie")) # this will call the 'greet' function with the argument "Charlie" and print the returned greeting message, which is "Hello, Charlie!"   
+def add(a, b): # this is a function definition that takes two parameters called 'a' and 'b'
+    return a + b # this is the body of the function that returns the sum of 'a' and 'b' 
+print(add(2, 3)) # this will call the 'add' function with the arguments 2 and 3 and print the returned sum, which is 5
+print(add(10, 20)) # this will call the 'add' function with the arguments 10 and 20 and print the returned sum, which is 30
+print(add(-5, 5)) # this will call the 'add' function with the arguments -5 and 5 and print the returned sum, which is 0
+print(add(3.5, 2.5)) # this will call the 'add' function with the arguments 3.5 and 2.5 and print the returned sum, which is 6.0    
+def multiply(x, y): # this is a function definition that takes two parameters called 'x' and 'y'
+    return x * y # this is the body of the function that returns the product of 'x' and 'y' 
+print(multiply(2, 3)) # this will call the 'multiply' function with the arguments 2 and 3 and print the returned product, which is 6    
+print(multiply(10, 20)) # this will call the 'multiply' function with the arguments 10 and 20 and print the returned product, which is 200
+print(multiply(-5, 5)) # this will call the 'multiply' function with the arguments -5 and 5 and print the returned product, which is -25
+print(multiply(3.5, 2.5)) # this will call the 'multiply' function with the arguments 3.5 and 2.5 and print the returned product, which is 8.75 
+
+a = 10
+b = 20
+c = 10
+
+average = (a + b + c) / 3 # this will calculate the average of a, b, and c by adding them together and dividing by 3
+print(average) # this will print the calculated average, which is 13.333333333333334
+def average(a, b, c): # this is a function definition that takes three parameters called 'a', 'b', and 'c'
+    return (a + b + c) / 3 # this is the body of the function that returns the average of 'a', 'b', and 'c' 
+
+def add(a, b): # this is a function definition that takes two parameters called 'a' and 'b'
+    return a + b # this is the body of the function that returns the sum of 'a' and 'b'     
+c = add(5, 10) # this will call the 'add' function with the arguments 5 and 10 and assign the returned sum, which is 15, to the variable 'c'
+print(c) # this will print the value of 'c', which is 15
+
+def subtract(a, b): # this is a function definition that takes two parameters called 'a' and 'b'
+    return a - b # this is the body of the function that returns the difference of 'a' and 'b'  
+print(subtract(10, 5)) # this will call the 'subtract' function with the arguments 10 and 5 and print the returned difference, which is 5
+print(subtract(20, 10)) # this will call the 'subtract' function with the arguments 20 and 10 and print the returned difference, which is 10
+print(subtract(5, 10)) # this will call the 'subtract' function with the arguments 5 and 10 and print the returned difference, which is -5
+print(subtract(3.5, 2.5)) # this will call the 'subtract' function with the arguments 3.5 and 2.5 and print the returned difference, which is 1.0   
