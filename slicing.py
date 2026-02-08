@@ -1,0 +1,21 @@
+name = "Alice"  
+print(name[0:2]) # this will print the first character of the string, which is 'A'
+print(name[2:5]) # this will print the second character of the string, which is 'lic'
+print(name[:3]) # this will print the first three characters of the string, which is 'Ali'
+print(name[3:]) # this will print the characters from index 3 to the end of the string, which is 'ce'
+print(name[:]) # this will print the entire string, which is 'Alice'    
+print(name[::2]) # this will print every second character of the string, which is 'Ace'     
+print(name[1::2]) # this will print every second character of the string starting from index 1, which is 'li'   
+print(name[::-1]) # this will print the string in reverse order, which is 'ecilA'   
+print(name[2:-1]) # this will print the characters from index 2 to the second to last character of the string, which is 'ic'
+print(name[1:4:2]) # this will print every second character from index 1 to index 3, which is 'l'
+print(name[::3]) # this will print every third character of the string, which is    'Ae'
+print(name[1:5:3]) # this will print every third character from index 1 to index 4, which is 'l'
+print(name[0:5:4]) # this will print every fourth character from index 0 to index 4, which is 'A'
+print(name[1:4:1]) # this will print every character from index 1 to index 3, which is 'lic'
+print(name[4:1:-1]) # this will print the characters from index 4 to index 2 in reverse order, which is 'ec'
+print(name[3:0:-1]) # this will print the characters from index 3 to index 1 in reverse order, which is 'cil'
+print(name[5:0:-1]) # this will print the characters from index 5
+print(name[0:5:1]) # this will print every character from index 0 to index 4, which is 'Alice'
+print(name[0:5:2]) # this will print every second character from index 0 to index 4, which is 'Ace'
+print(name[1:5:2]) # this will print every second character from index
