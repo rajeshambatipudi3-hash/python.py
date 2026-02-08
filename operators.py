@@ -47,3 +47,23 @@ print((a / b) * 2 - 5) # this will print the result of (a divided by b) multipli
 print(a / (b * 2) - 5) # this will print the result of a divided by (b multiplied by 2) minus 5, which is approximately -4.934210526315789
 print(a / b / 2 - 5) # this will print the result of a divided by b divided by 2 minus 5, which is approximately -4.934210526315789
 print((a / b) / 2 - 5) # this will print the result of (a divided by b) divided by 2 minus 5, which is approximately -4.934210526315789 
+
+
+print("a+b =", a + b) # this will print "a+b = 86" since a + b is 86
+print("a-b =", a - b) # this will print "a-b = -66" since a - b is -66
+print("a*b =", a * b) # this will print "a*b = 760" since a * b is 760
+print("a/b =", a / b) # this will print "a/b = 0.13157894736842105" since a / b is approximately 0.13157894736842105
+print("a%b =", a % b) # this will print "a%b = 10" since a % b is 10
+print("a**b =", a ** b) # this will print "a**b = 10 raised to the power of 76" since a ** b is 10 raised to the power of 76, a very large number
+print("a//b =", a // b) # this will print "a//b = 0" since a // b is 0
+print("-a =", -a) # this will print "-a = -10" since -a is -10
+print("+a =", +a) # this will print "+a = 10" since +a is 10
+print("a == b:", a == b) # this will print "a == b: False" since a is not equal to b
+print("a != b:", a != b) # this will print "a != b: True" since a is not equal to b
+print("a > b:", a > b) # this will print "a > b: False" since a is not greater than b
+print("a < b:", a < b) # this will print "a < b: True" since a is less than b
+print("a >= b:", a >= b) # this will print "a >= b: False" since a is not greater than or equal to b
+print("a <= b:", a <= b) # this will print "a <= b: True" since a is less than or equal to b
+print("a and b:", a and b) # this will print "a and b: 76" since both a and b are non-zero, so it returns the last value which is b
+print("a or b:", a or b) # this will print "a or b: 10" since a is non-zero, so it returns the first value which is a
+print("not a:", not a) # this will print "not a: False" since
