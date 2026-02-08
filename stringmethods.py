@@ -35,3 +35,22 @@ print(name.islower()) # this will print True if all characters in the string are
 print(name.strip()) # this will print the string with any leading or trailing whitespace removed, which is 'hello world' (since there is no whitespace  to remove)
 print(name.lstrip()) # this will print the string with any leading whitespace removed, which is 'hello world' (since there is no leading whitespace to remove )
 print(name.rstrip()) # this will print the string with any trailing whitespace removed, which is 'hello world' (since there is no trailing whitespace to remove)
+
+text = "python programming is fun" # this will create a string variable named text with the value "python programming is fun"
+print(text.find("programming")) # this will print the index of the first occurrence of the substring "programming" in the string text, which is 7
+print(text.find("Python")) # this will print -1 since the substring "Python" (with an uppercase "P") is not found in the string text (which contains "python" with a lowercase "p")
+print(text.find("is")) # this will print the index of the first occurrence of the substring "is" in the string text, which is 18
+print(text.find("fun")) # this will print the index of the first occurrence of the substring "fun" in the string text, which is 21
+print(text.find("java")) # this will print -1 since the substring "java" is not found in the string text
+print(text.find(" ")) # this will print the index of the first occurrence of the space character in the string text, which is 6
+print(text.find("p")) # this will print the index of the first occurrence of the character  "p" in the string text, which is 0
+print(text.find("g")) # this will print the index of the first occurrence of the character "g" in the string text, which is 10
+print(text.find("z")) # this will print -1 since the character "z" is not found in the string text      
+print(text.replace("python", "java")) # this will print the string with all occurrences of "python" replaced with "java", which is 'java programming is fun'
+print(text.replace(" ", "_")) # this will print the string with all occurrences of the space    character replaced with "_", which is 'python_programming_is_fun'
+print(text.replace("is", "was")) # this will print the string with all occurrences of "is" replaced with "was", which is 'python programming was fun'
+print(text.replace("fun", "awesome")) # this will print the string with all occurrences of "fun" replaced with "awesome", which is 'python programming is awesome'
+print(text.replace("programming", "coding")) # this will print the string with all occurrences of "programming" replaced with "coding", which is 'python coding is fun'
+print(text.replace("o", "0")) # this will print the string with all occurrences of "o" replaced with "0", which is 'pyth0n pr0gramming is fun'
+print(text.replace("a", "4")) # this will print the string with all occurrences of "a" replaced with "4", which is 'python progr4mming is fun'
+print(text.replace("e", "3")) # this will print the string with all occurrences of
