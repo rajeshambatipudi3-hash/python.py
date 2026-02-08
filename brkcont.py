@@ -15,3 +15,4 @@ for i in range(0, 20): # this will loop from 0 to 19
         pass # this will do nothing and continue to the next iteration of the loop if i is equal to 10
     
 print("Loop ended") # this will print "Loop ended" after the loop has finished executing
+
