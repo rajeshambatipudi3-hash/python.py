@@ -11,3 +11,6 @@
 
 for i in range(1, 11): # this will loop from 1 to 10
     print(f"5 X {i} = {5 * i}") # this will print the multiplication table of 5, which will be 5 X 1 = 5, 5 X 2 = 10, and so on up to 5 X 10 = 50
+
+    for i in range(1, 11): # this will loop from 1 to 10
+        print("5 X", i, "=", 5 * i) # this will print the multiplication table of 5, which will be 5 X 1 = 5, 5 X 2 = 10, and so on up to 5 X 10 = 50
