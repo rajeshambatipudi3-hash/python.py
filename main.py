@@ -22,3 +22,9 @@ cgpa = 3.8
 name = "Jane Smith"
 college = "XYZ University"
 print(type(age), type(cgpa), type(name), type(college) )
+
+age = 35
+name = "Alice Johnson"
+
+float_number = 3.9
+print(int(age), str(name), float(float_number))
