@@ -34,3 +34,5 @@ print(is_vowel('E')) # this will call the 'is_vowel' lambda function with the ar
 is_consonant = lambda c: c.lower() in 'bcdfghjklmnpqrstvwxyz' # this is a lambda function that takes one parameter 'c' and returns True if 'c' is a consonant (any letter that is not a vowel), otherwise it returns False
 print(is_consonant('a')) # this will call the 'is_consonant' lambda function with the argument 'a' and print the returned value, which is False
 print(is_consonant('b')) # this will call the 'is_consonant' lambda function with the argument 'b' and print the returned value, which is True
+
+
