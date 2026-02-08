@@ -30,3 +30,8 @@ float_number = 3.9
 print(int(age), str(name), float(float_number))
 
 # crreated new branch for backup and added new line to test the branch
+
+a = 10
+b = 20
+sum = a + b
+print("The sum of a and b is:", sum)
