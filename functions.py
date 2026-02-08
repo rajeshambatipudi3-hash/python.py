@@ -19,3 +19,11 @@ print(multiply(10, 20)) # this will call the 'multiply' function with the argume
 print(multiply(-5, 5)) # this will call the 'multiply' function with the arguments -5 and 5 and print the returned product, which is -25
 print(multiply(3.5, 2.5)) # this will call the 'multiply' function with the arguments 3.5 and 2.5 and print the returned product, which is 8.75 
 
+a = 10
+b = 20
+c = 10
+
+average = (a + b + c) / 3 # this will calculate the average of a, b, and c by adding them together and dividing by 3
+print(average) # this will print the calculated average, which is 13.333333333333334
+def average(a, b, c): # this is a function definition that takes three parameters called 'a', 'b', and 'c'
+    return (a + b + c) / 3 # this is the body of the function that returns the average of 'a', 'b', and 'c' 
