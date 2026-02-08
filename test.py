@@ -6,5 +6,7 @@ print(str(a)) # this will convert the integer 23 to a string "23"
 c = str(b)
 print(type(c)) # this will print <class 'str'> since c is now a string  
 
-user_input = input("Enter a value: ")
-print(f"You entered: {user_input}")
+user_input = input("Enter a number: ")
+print(f"You entered: {user_input} (type: {type(user_input).__name__})")
+num = int(user_input)
+print(f"Converted to integer: {num} (type: {type(num).__name__})")
