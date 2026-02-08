@@ -28,3 +28,8 @@ name = "Alice Johnson"
 
 float_number = 3.9
 print(int(age), str(name), float(float_number))
+
+age = 40
+name = "Bob Brown"
+print("Age:", age)
+print("Name:", name)
